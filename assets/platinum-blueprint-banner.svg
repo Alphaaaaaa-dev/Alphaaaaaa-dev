@@ -1,0 +1,84 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08090B"/>
+      <stop offset="55%" stop-color="#171A1F"/>
+      <stop offset="100%" stop-color="#08090B"/>
+    </linearGradient>
+
+    <linearGradient id="metal" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#929BA5"/>
+      <stop offset="50%" stop-color="#F4F5F6"/>
+      <stop offset="75%" stop-color="#929BA5"/>
+      <stop offset="100%" stop-color="#D9DEE3"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#AAB4C0" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="brush" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 1H4 M0 3H4" stroke="#FFFFFF" stroke-opacity=".035" stroke-width=".5"/>
+    </pattern>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#59636F" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#D4D9DE" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#59636F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="12" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="12" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="12" fill="url(#brush)"/>
+
+  <!-- Technical blueprint geometry -->
+  <g fill="none" stroke="#B8C2CC" stroke-opacity=".32">
+    <circle cx="1000" cy="170" r="125" stroke-dasharray="3 8"/>
+    <circle cx="1000" cy="170" r="92"/>
+    <circle cx="1000" cy="170" r="58" stroke-dasharray="2 6"/>
+    <path d="M855 170H1145 M1000 25V315"/>
+    <path d="M875 45L1125 295 M1125 45L875 295" stroke-opacity=".12"/>
+    <path d="M900 40H1080 M900 300H1080"/>
+  </g>
+
+  <g fill="#C5CDD5" font-family="monospace" font-size="10" opacity=".65">
+    <text x="905" y="28">FIG. 001 / SYSTEM ARCHITECTURE</text>
+    <text x="920" y="330">DESIGN COORDINATES // 00.01</text>
+    <text x="25" y="32">PLATINUM BLUEPRINT</text>
+    <text x="25" y="338">ENGINEERED THROUGH CURIOSITY</text>
+  </g>
+
+  <!-- Main typography -->
+  <text x="600" y="153" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="65" font-weight="700"
+        letter-spacing="2" fill="url(#metal)">
+    PRATEEK SHARMA
+  </text>
+
+  <path d="M300 181H900" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <text x="600" y="220" text-anchor="middle"
+        font-family="monospace" font-size="17"
+        letter-spacing="4" fill="#C4CBD2">
+    SOFTWARE ENGINEERING  /  AI &amp; ML
+  </text>
+
+  <text x="600" y="260" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="14" letter-spacing="3"
+        fill="#858F9A">
+    BUILDING INTELLIGENT SYSTEMS. DESIGNING WHAT'S NEXT.
+  </text>
+
+  <!-- Corner details -->
+  <g fill="none" stroke="#C0C7CE" stroke-width="1.2" opacity=".65">
+    <path d="M18 55V18H55 M1145 18H1182V55"/>
+    <path d="M18 305V342H55 M1145 342H1182V305"/>
+  </g>
+
+  <path d="M0 355H1200" stroke="#D0D5DA" stroke-opacity=".35"/>
+</svg>
