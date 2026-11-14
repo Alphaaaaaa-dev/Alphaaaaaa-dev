@@ -1,0 +1,67 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#171B20"/>
+      <stop offset="1" stop-color="#080A0D"/>
+    </linearGradient>
+    <linearGradient id="silver" x2="1" y2="0">
+      <stop stop-color="#89939D"/>
+      <stop offset=".5" stop-color="#F0F2F4"/>
+      <stop offset="1" stop-color="#929CA6"/>
+    </linearGradient>
+    <linearGradient id="glass" x2="0" y2="1">
+      <stop stop-color="#343B43" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#11151A" stop-opacity=".9"/>
+    </linearGradient>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none" stroke="#B5C0CA" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="530" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="530" rx="18" fill="url(#grid)"/>
+
+  <text x="45" y="62" fill="#89949F" font-size="12" font-family="monospace" letter-spacing="4">PORTFOLIO / SELECTED WORKS</text>
+  <text x="45" y="112" fill="url(#silver)" font-size="37" font-family="Arial" font-weight="bold">ENGINEERED IDEAS.</text>
+  <text x="45" y="151" fill="#A6AFB8" font-size="16" font-family="Arial">A collection of projects, experiments and innovations.</text>
+
+  <!-- Card 1 -->
+  <rect x="40" y="190" width="445" height="135" rx="12" fill="url(#glass)" stroke="#AEB8C2" stroke-opacity=".48"/>
+  <path d="M40 215V202Q40 190 52 190H473" fill="none" stroke="#E0E5E9" stroke-opacity=".5"/>
+  <text x="65" y="228" fill="#89949F" font-family="monospace" font-size="11">01 / INTELLIGENT SYSTEMS</text>
+  <text x="65" y="269" fill="url(#silver)" font-family="Arial" font-size="27" font-weight="bold">ALPHA AI</text>
+  <text x="65" y="296" fill="#B4BDC6" font-family="Arial" font-size="13">A personal AI assistant inspired by Jarvis.</text>
+  <circle cx="438" cy="260" r="20" fill="none" stroke="#C6CDD4" stroke-opacity=".6"/>
+  <path d="M428 260H448M438 250V270" stroke="#DCE1E5" stroke-width="1.5"/>
+
+  <!-- Card 2 -->
+  <rect x="515" y="190" width="445" height="135" rx="12" fill="url(#glass)" stroke="#AEB8C2" stroke-opacity=".48"/>
+  <path d="M515 215V202Q515 190 527 190H948" fill="none" stroke="#E0E5E9" stroke-opacity=".5"/>
+  <text x="540" y="228" fill="#89949F" font-family="monospace" font-size="11">02 / EDUCATIONAL AI</text>
+  <text x="540" y="269" fill="url(#silver)" font-family="Arial" font-size="27" font-weight="bold">LUCID AI</text>
+  <text x="540" y="296" fill="#B4BDC6" font-family="Arial" font-size="13">An intelligent syllabus-based study tutor.</text>
+  <circle cx="913" cy="260" r="20" fill="none" stroke="#C6CDD4" stroke-opacity=".6"/>
+  <path d="M903 260H923M913 250V270" stroke="#DCE1E5" stroke-width="1.5"/>
+
+  <!-- Card 3 -->
+  <rect x="40" y="350" width="445" height="135" rx="12" fill="url(#glass)" stroke="#AEB8C2" stroke-opacity=".48"/>
+  <path d="M40 375V362Q40 350 52 350H473" fill="none" stroke="#E0E5E9" stroke-opacity=".5"/>
+  <text x="65" y="388" fill="#89949F" font-family="monospace" font-size="11">03 / DIGITAL COMMERCE</text>
+  <text x="65" y="429" fill="url(#silver)" font-family="Arial" font-size="27" font-weight="bold">YOUTUPIA</text>
+  <text x="65" y="456" fill="#B4BDC6" font-family="Arial" font-size="13">A clothing business web experience.</text>
+  <circle cx="438" cy="420" r="20" fill="none" stroke="#C6CDD4" stroke-opacity=".6"/>
+  <path d="M428 420H448M438 410V430" stroke="#DCE1E5" stroke-width="1.5"/>
+
+  <!-- Card 4 -->
+  <rect x="515" y="350" width="445" height="135" rx="12" fill="url(#glass)" stroke="#AEB8C2" stroke-opacity=".48"/>
+  <path d="M515 375V362Q515 350 527 350H948" fill="none" stroke="#E0E5E9" stroke-opacity=".5"/>
+  <text x="540" y="388" fill="#89949F" font-family="monospace" font-size="11">04 / PRODUCT INNOVATION</text>
+  <text x="540" y="429" fill="url(#silver)" font-family="Arial" font-size="27" font-weight="bold">SAIVALA</text>
+  <text x="540" y="456" fill="#B4BDC6" font-family="Arial" font-size="13">Algae-based vegetarian protein innovation.</text>
+  <circle cx="913" cy="420" r="20" fill="none" stroke="#C6CDD4" stroke-opacity=".6"/>
+  <path d="M903 420H923M913 410V430" stroke="#DCE1E5" stroke-width="1.5"/>
+
+  <text x="45" y="510" fill="#89949F" font-family="monospace" font-size="10" letter-spacing="2">PRATEEK SHARMA / DEVELOPMENT ARCHIVE</text>
+  <text x="955" y="510" text-anchor="end" fill="#89949F" font-family="monospace" font-size="10">PLT / 001</text>
+</svg>
