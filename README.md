@@ -65,15 +65,13 @@ Algae-based vegetarian plant-protein innovation and machine prototyping project.
 
 ## 03 / CONTRIBUTION ACTIVITY
 
-
-
 <div align="center">
 
-<img src="assets/activity-matrix.svg" width="100%" alt="Platinum Activity Matrix"/>
+<img src="https://raw.githubusercontent.com/Alphaaaaaa-dev/Alphaaaaaa-dev/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
 
 </div>
 
-
+---
 
 ## 04 / GITHUB ANALYTICS
 
